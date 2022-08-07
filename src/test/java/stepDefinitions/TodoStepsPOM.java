@@ -181,5 +181,7 @@ public class TodoStepsPOM {
 
     @Then("the todo list should be empty")
     public void theTodoListShouldBeEmpty() {
+        page.todoListShouldBeEmpty();
     }
+
 }

@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7e6fb2f-cef5-4dd9-8238-43c918263f31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TodoSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/todomvcPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/TodoStepsPOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/todos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/todomvc-stories/features/todos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/todomvc-stories/features/todos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/todomvc-stories/pages/TodoSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/todomvc-stories/pages/todomvcPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/todomvc-stories/pages/todomvcPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/todomvc-stories/stepDefinitions/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/todomvc-stories/stepDefinitions/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/todomvc-stories/stepDefinitions/TodoStepsPOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/todomvc-stories/stepDefinitions/TodoStepsPOM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/todomvcPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/todomvcPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/TodoStepsPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/TodoStepsPOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/todos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/todos.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +60,25 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nahid\IdeaProjects\todomvc-stories\target" />
+      <recent name="C:\Users\nahid\IdeaProjects\todomvc-stories\target\cucumber-reports" />
       <recent name="C:\Users\nahid\IdeaProjects\todomvc-stories\src\test\resources\drivers" />
       <recent name="C:\Users\nahid\IdeaProjects\todomvc-stories\src\test\reports" />
-      <recent name="C:\Users\nahid\IdeaProjects\todomvc-stories\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="Feature: todos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: The todo list should be empty if all the todo are completed and cleared">
+    <configuration name="Scenario: Adding a new item to the empty todo list" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/todos.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="todomvc-stories" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: todos" />
+      <option name="NAME_FILTER" value="^Adding a new item to the empty todo list$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding a new item to the empty todo list$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Adding a new item to the empty todo list" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -90,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Adding a new item to the empty todo list" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: The todo list should be empty if all the todo are completed and cleared" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/todos.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="todomvc-stories" />
-      <option name="NAME_FILTER" value="^Adding a new item to the empty todo list$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding a new item to the empty todo list$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Adding a new item to the empty todo list" />
+      <option name="NAME_FILTER" value="^The todo list should be empty if all the todo are completed and cleared$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The todo list should be empty if all the todo are completed and cleared$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: The todo list should be empty if all the todo are completed and cleared" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -130,15 +130,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can edit a todo item" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can clear all completed todo by clicking Clear Completed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/todos.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="todomvc-stories" />
-      <option name="NAME_FILTER" value="^User can edit a todo item$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can edit a todo item$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can edit a todo item" />
+      <option name="NAME_FILTER" value="^User can clear all completed todo by clicking Clear Completed$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can clear all completed todo by clicking Clear Completed$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can clear all completed todo by clicking Clear Completed" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: The todo list should be empty if all the todo are completed and cleared" />
+        <item itemvalue="Cucumber Java.Scenario: User can clear all completed todo by clicking Clear Completed" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: User can check todo item" />
         <item itemvalue="Cucumber Java.Scenario: Adding a new item to the empty todo list" />
-        <item itemvalue="Cucumber Java.Scenario: User can edit a todo item" />
-        <item itemvalue="Cucumber Java.Feature: todos" />
       </list>
     </recent_temporary>
   </component>

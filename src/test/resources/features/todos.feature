@@ -142,3 +142,18 @@ Feature: Manage todo list
       | todo_item   | another_todo_item |
       | Buy cookies | Send document     |
 
+  @smokeTest
+  Scenario Outline: The todo list should be empty if all the todo are completed and cleared
+    When user enters <todo_item>
+    And user presses Enter
+    Then <todo_item> should appear in the list
+    When user clicks the toggle all button
+    Then the todo count should be 0
+    And the Clear Completed button should appear
+    When user clicks on the Clear Completed button
+    Then the todo list should be empty
+
+    Examples:
+      | todo_item   |
+      | Buy cookies |
+

@@ -169,4 +169,8 @@ public class todomvcPage {
         toggle_all_button.click();
     }
 
+    public void todoListShouldBeEmpty() {
+
+        Assert.assertEquals(0, item_list.size());
+    }
 }
