@@ -140,4 +140,5 @@ Feature: Manage todo list
 
     Examples:
       | todo_item   | another_todo_item |
-      | Buy cookies | Send document       |
+      | Buy cookies | Send document     |
+

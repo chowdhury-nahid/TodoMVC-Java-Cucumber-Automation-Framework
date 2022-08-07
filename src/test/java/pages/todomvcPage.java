@@ -39,8 +39,8 @@ public class todomvcPage {
     @FindBy(css = "section.main ul.todo-list:nth-child(3) li.todo div.view > input.toggle:nth-child(1)")
     WebElement first_todo_checkbox;
 
-    @FindBy(css = "body.learn-bar:nth-child(2) section.todoapp:nth-child(2) section.main ul.todo-list:nth-child(3) li.todo:nth-child(2) div.view > label:nth-child(2)")
-    WebElement second_todo;
+//    @FindBy(css = "body.learn-bar:nth-child(2) section.todoapp:nth-child(2) section.main ul.todo-list:nth-child(3) li.todo:nth-child(2) div.view > label:nth-child(2)")
+//    WebElement second_todo;
 
     @FindBy(css = "section.main ul.todo-list:nth-child(3) > li.todo.completed:nth-child(1) ")
     WebElement first_todo_status;
@@ -48,7 +48,7 @@ public class todomvcPage {
     @FindBy(css = "section.main ul.todo-list:nth-child(3) li.todo div.view > button.destroy:nth-child(3)")
     WebElement first_todo_destroy_button;
 
-    @FindBy(css="[for='toggle-all']")
+    @FindBy(css = "[for='toggle-all']")
     WebElement toggle_all_button;
 
 
@@ -79,7 +79,7 @@ public class todomvcPage {
 
         if (item_list.size() != 0) {
             for (WebElement items : item_list) {
-                    Assert.assertNotEquals(itemText, items.getText());
+                Assert.assertNotEquals(itemText, items.getText());
             }
         }
     }
@@ -144,28 +144,28 @@ public class todomvcPage {
         first_todo_checkbox.click();
     }
 
-    public void verifyFirstTodoStatus(String status){
+    public void verifyFirstTodoStatus(String status) {
         Assert.assertEquals(status, first_todo_status.getAttribute("class"));
     }
 
-    public void clearCompletedButtonAppears(){
+    public void clearCompletedButtonAppears() {
         clear_completed_button.isDisplayed();
     }
 
-    public void clickActiveFilter(){
+    public void clickActiveFilter() {
         active_filter.click();
     }
 
-    public void mouseHoverOnFirstTodo(){
+    public void mouseHoverOnFirstTodo() {
         Actions actions = new Actions(driver);
         actions.moveToElement(first_todo_item).perform();
     }
 
-    public void clickFirstTodoDestroyButton(){
+    public void clickFirstTodoDestroyButton() {
         first_todo_destroy_button.click();
     }
 
-    public void clickToggleAllButton(){
+    public void clickToggleAllButton() {
         toggle_all_button.click();
     }
 
